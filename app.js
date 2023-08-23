@@ -10,7 +10,7 @@ const homeStartingContent = "Travelling is an amazing way to learn a lot of thin
 const aboutContent = "";
 const contactContent = "";
 const app = express();
-mongoose.connect("mongodb+srv://roushankr:7209289203@cluster0.s325ggr.mongodb.net/tests", { useNewUrlParser: true });
+mongoose.connect("mongodb+srv://hraj37378:YHMPw31yE06dKBo0@cluster0.5xqhbow.mongodb.net/tests", { useNewUrlParser: true });
 const postSchema = new mongoose.Schema({
   title: String,
   author: String,
